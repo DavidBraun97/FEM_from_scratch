@@ -1,5 +1,7 @@
 function [] = visualizegeometry(a,b)
-% This function visualizes the geometry
+% This function visualizes the geometry.
+% Inputs:
+% a,b   geometric parameter of rect. geometry
 
 figure('Name','original geometry','NumberTitle','off');
 % x,y are the coordinates of the 4 nodes
@@ -9,6 +11,3 @@ patch(x,y,[0.9 0.9 0.9],'EdgeColor','k','Marker','o','MarkerFaceColor','k');
 axis equal 
 grid on
 end
-
-
-
