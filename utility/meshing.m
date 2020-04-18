@@ -1,4 +1,4 @@
-function [Xbar,EDOF,GDOF,flag] = mashing(h,a,b,flag)
+function [Xbar,EDOF,GDOF,flag] = meshing(h,a,b,flag)
 % This function takes a rectangular geometry as input and performs a simple
 % meshing algorithm.
 % Inputs:

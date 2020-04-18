@@ -26,7 +26,7 @@ if flag.type == "2D-bilinear"
             end
         end
         K_e{e} = k_e;
-        S0_e{e} = s0_e;
+        S0_e{e} = -s0_e;    % Don't forget to negate!
     end
 K_e = cell2mat(K_e);
 S0_e = cell2mat(S0_e);
